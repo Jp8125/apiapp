@@ -1,0 +1,13 @@
+
+<button (click)="pt()">post</button>
+<button (click)="hello()">get</button>
+<div class="container d-flex flex-wrap" *ngIf="dataarr">
+    <div class="border p-4 mx-4 my-4" *ngFor="let item of dataarr">
+        <p>
+            {{item.id}}
+    </p>
+    <p>{{item.name}}</p>
+    <p>{{item.gender}}</p>
+    <p>{{item.status}}</p>
+</div>
+</div>
